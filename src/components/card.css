@@ -1,0 +1,56 @@
+
+.cardBody {
+    display: flex;
+    flex-direction: column;
+}
+
+.cardBody:not(:last-child) {
+    margin-right: 1vh;
+}
+
+.cardName {
+    padding: 2vh 0;
+    border: 1px solid white;
+    font-size: 28px;
+    color: rgb(3, 3, 3);
+}
+
+.cardPrice { 
+    padding: 4vh 0;
+    border: 1px solid white;
+    font-size: 25px;
+    color: white;
+}
+
+.cardSpeed {
+    padding: 4vh 0;
+    background-color:lightgray;
+    font-size: 23px;
+}
+
+.cardInfo {
+    padding: 2vh 5vh;
+    background-color:darkgray;
+    font-size: 20px;
+}
+
+.cardNumber {
+    display: inline-flex;
+    font-size: 6rem;
+    margin: 5rem 0;
+    color: white;
+}
+
+.cardLimit {
+    display: inline-flex;
+    margin: 3rem 0;
+}
+
+.cardCost, .cardLimit, .cardTittle {
+    font-size: 2em;
+    color: white;
+}
+
+.Selected {
+    border: 5px green solid;
+}

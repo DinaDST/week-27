@@ -1,7 +1,11 @@
 .App {
+  display: flex;
+  flex-direction: row;
   text-align: center;
+  padding: 3px;
 }
 
+/*
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -36,3 +40,4 @@
     transform: rotate(360deg);
   }
 }
+*/
