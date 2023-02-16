@@ -51,6 +51,6 @@
     color: white;
 }
 
-.Selected {
-    border: 5px green solid;
+.selected {
+    transform: scale(1.05);
 }
