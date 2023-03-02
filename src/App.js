@@ -1,7 +1,7 @@
 import React from "react";
 import styles from "./App.css";
 
-import Card from "./components/Card.jsx";
+import Card from "./components/Card";
 
 import var1 from "./styles/var1.module.css";
 import var2 from "./styles/var2.module.css";

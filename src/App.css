@@ -5,6 +5,11 @@
   padding: 3px;
 }
 
+button {
+  padding: 0;
+border: none;
+}
+
 /*
 .App-logo {
   height: 40vmin;
